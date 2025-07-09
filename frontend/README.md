@@ -1,85 +1,91 @@
-\documentclass{article}
-\usepackage{hyperref}
-\begin{document}
 
-\section*{WisePal}
+# WisePal
 
-\textbf{WisePal} is a conversational AI web application that allows users to interact with an intelligent assistant through a modern, responsive chat interface. This project demonstrates practical skills in backend API development, frontend engineering, and AI model integration.
+**WisePal** is a conversational AI web application that allows users to interact with an intelligent assistant through a modern, responsive chat interface. This project demonstrates practical skills in backend API development, frontend engineering, and AI model integration.
 
-\subsection*{Project Overview}
-\begin{itemize}
-    \item Conversational AI platform built with Python (FastAPI), React (Next.js), and Tailwind CSS.
-    \item Integrates open-source natural language models from Hugging Face Transformers for real-time chatbot responses.
-    \item Features a clean, user-friendly chat UI with dynamic conversation history.
-    \item Designed, implemented, and documented entirely by me as a demonstration of end-to-end product engineering.
-\end{itemize}
+---
 
-\subsection*{Technologies Used}
-\begin{tabular}{ | l | l | }
-    \hline
-    \textbf{Layer} & \textbf{Technology} \\
-    \hline
-    Backend    & Python, FastAPI \\
-    Frontend   & Next.js (React), Tailwind CSS \\
-    AI Model   & Hugging Face Transformers (e.g., BlenderBot) \\
-    Versioning & Git, GitHub \\
-    \hline
-\end{tabular}
+## 🚀 Project Overview
 
-\subsection*{Key Features}
-\begin{itemize}
-    \item Modern, responsive chat interface with real-time messaging and auto-scrolling.
-    \item RESTful API connecting frontend and backend for seamless communication.
-    \item Natural language understanding and generation using pre-trained transformer models.
-    \item Clean repository management with \texttt{.gitignore} to exclude unnecessary files and dependencies.
-    \item Comprehensive documentation for setup, usage, and customization.
-\end{itemize}
+- Conversational AI platform built with Python (FastAPI), React (Next.js), and Tailwind CSS.
+- Integrates open-source natural language models from Hugging Face Transformers for real-time chatbot responses.
+- Features a clean, user-friendly chat UI with dynamic conversation history.
+- Designed, implemented, and documented entirely by me as a demonstration of end-to-end product engineering.
 
-\subsection*{How to Run Locally}
-\textbf{1. Clone the Repository}
-\begin{verbatim}
+---
+
+## 🛠️ Technologies Used
+
+| Layer      | Technology                                      |
+|------------|-------------------------------------------------|
+| Backend    | Python, FastAPI                                 |
+| Frontend   | Next.js (React), Tailwind CSS                   |
+| AI Model   | Hugging Face Transformers (e.g., BlenderBot)    |
+| Versioning | Git, GitHub                                     |
+
+---
+
+## 💡 Key Features
+
+- **Modern, responsive chat interface** with real-time messaging and auto-scrolling.
+- **RESTful API** connecting frontend and backend for seamless communication.
+- **Natural language understanding and generation** using pre-trained transformer models.
+- **Clean repository management** with `.gitignore` to exclude unnecessary files and dependencies.
+- **Comprehensive documentation** for setup, usage, and customization.
+
+---
+
+## 🏗️ How to Run Locally
+
+### 1. Clone the Repository
+
 git clone https://github.com/yourusername/wisepal.git
 cd wisepal
-\end{verbatim}
 
-\textbf{2. Backend Setup}
-\begin{verbatim}
+
+### 2. Backend Setup
+
 cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
-\end{verbatim}
 
-\textbf{3. Frontend Setup}
-\begin{verbatim}
+
+### 3. Frontend Setup
+
+Open a new terminal:
+
 cd frontend
 npm install
 npm run dev
-\end{verbatim}
 
-Visit \url{http://localhost:3000} in your browser.
 
-\subsection*{Project Highlights}
-\begin{itemize}
-    \item Designed and implemented the entire stack, from backend API to frontend UI.
-    \item Integrated Hugging Face conversational models for interactive, context-aware chat.
-    \item Managed project with Git and GitHub, following best practices for clean code and version control.
-    \item Documented setup and usage for easy onboarding and demonstration to recruiters.
-\end{itemize}
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-\subsection*{Customization}
-\begin{itemize}
-    \item Swap out the AI model in \texttt{backend/main.py} to try different Hugging Face models.
-    \item Update UI styles in the frontend for your preferred look and feel.
-\end{itemize}
+---
 
-\subsection*{License}
+## 📝 Project Highlights
+
+- Designed and implemented the entire stack, from backend API to frontend UI.
+- Integrated Hugging Face conversational models for interactive, context-aware chat.
+- Managed project with Git and GitHub, following best practices for clean code and version control.
+- Documented setup and usage for easy onboarding and demonstration to recruiters.
+
+---
+
+## 🧩 Customization
+
+- Swap out the AI model in `backend/main.py` to try different Hugging Face models.
+- Update UI styles in the frontend for your preferred look and feel.
+
+---
+
+## 📄 License
+
 MIT
 
-\vspace{1em}
-\noindent
-\textbf{Built and maintained by [Your Name].}\\
-If you’re a recruiter or collaborator interested in my work, feel free to reach out or explore the codebase!
+---
 
-\end{document}
+**Built and maintained by Shreya N.**  
+If you’re a recruiter or collaborator interested in my work, feel free to reach out or explore the codebase!
