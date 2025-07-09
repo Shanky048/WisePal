@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+\documentclass{article}
+\usepackage{hyperref}
+\begin{document}
 
-## Getting Started
+\section*{WisePal}
 
-First, run the development server:
+\textbf{WisePal} is a conversational AI web application that allows users to interact with an intelligent assistant through a modern, responsive chat interface. This project demonstrates practical skills in backend API development, frontend engineering, and AI model integration.
 
-```bash
+\subsection*{Project Overview}
+\begin{itemize}
+    \item Conversational AI platform built with Python (FastAPI), React (Next.js), and Tailwind CSS.
+    \item Integrates open-source natural language models from Hugging Face Transformers for real-time chatbot responses.
+    \item Features a clean, user-friendly chat UI with dynamic conversation history.
+    \item Designed, implemented, and documented entirely by me as a demonstration of end-to-end product engineering.
+\end{itemize}
+
+\subsection*{Technologies Used}
+\begin{tabular}{ | l | l | }
+    \hline
+    \textbf{Layer} & \textbf{Technology} \\
+    \hline
+    Backend    & Python, FastAPI \\
+    Frontend   & Next.js (React), Tailwind CSS \\
+    AI Model   & Hugging Face Transformers (e.g., BlenderBot) \\
+    Versioning & Git, GitHub \\
+    \hline
+\end{tabular}
+
+\subsection*{Key Features}
+\begin{itemize}
+    \item Modern, responsive chat interface with real-time messaging and auto-scrolling.
+    \item RESTful API connecting frontend and backend for seamless communication.
+    \item Natural language understanding and generation using pre-trained transformer models.
+    \item Clean repository management with \texttt{.gitignore} to exclude unnecessary files and dependencies.
+    \item Comprehensive documentation for setup, usage, and customization.
+\end{itemize}
+
+\subsection*{How to Run Locally}
+\textbf{1. Clone the Repository}
+\begin{verbatim}
+git clone https://github.com/yourusername/wisepal.git
+cd wisepal
+\end{verbatim}
+
+\textbf{2. Backend Setup}
+\begin{verbatim}
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+\end{verbatim}
+
+\textbf{3. Frontend Setup}
+\begin{verbatim}
+cd frontend
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\end{verbatim}
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit \url{http://localhost:3000} in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+\subsection*{Project Highlights}
+\begin{itemize}
+    \item Designed and implemented the entire stack, from backend API to frontend UI.
+    \item Integrated Hugging Face conversational models for interactive, context-aware chat.
+    \item Managed project with Git and GitHub, following best practices for clean code and version control.
+    \item Documented setup and usage for easy onboarding and demonstration to recruiters.
+\end{itemize}
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\subsection*{Customization}
+\begin{itemize}
+    \item Swap out the AI model in \texttt{backend/main.py} to try different Hugging Face models.
+    \item Update UI styles in the frontend for your preferred look and feel.
+\end{itemize}
 
-## Learn More
+\subsection*{License}
+MIT
 
-To learn more about Next.js, take a look at the following resources:
+\vspace{1em}
+\noindent
+\textbf{Built and maintained by [Your Name].}\\
+If you’re a recruiter or collaborator interested in my work, feel free to reach out or explore the codebase!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+\end{document}
