@@ -39,7 +39,7 @@
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/wisepal.git
+git clone https://github.com/Shanky048/WisePal.git
 cd wisepal
 
 
