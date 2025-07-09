@@ -3,6 +3,7 @@
 **WisePal** is a conversational AI web application that allows users to interact with an intelligent assistant through a modern, responsive chat interface. This project demonstrates practical skills in backend API development, frontend engineering, and AI model integration.
 
 ---
+<img width="1470" alt="Screenshot 2025-07-08 at 7 40 21 PM" src="https://github.com/user-attachments/assets/a21f1682-df48-48ca-b999-a7dae32716d6" />
 
 ## 🚀 Project Overview
 
